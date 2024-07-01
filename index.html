@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lightbox-Integration</title>
+	<link rel="stylesheet" href="./CSS/style.css">
+	<link rel="stylesheet" href="./CSS/Responsive.css">
+</head>
+<body>
+	<!-- main container -->
+	<main class="container">
+		<!-- heading -->
+		<h1 class="container__lightbox-heading">Lightbox-Integration</h1>
+		<!-- gallery section -->
+		<section class="container__gallery">
+			<div class="gallery__thumbnail">
+				<img src="./assets/images/natural2.avif" alt="Image 1" class="container__gallery-thumbnail--image">
+			</div>
+			<div class="gallery__thumbnail">
+				<img src="./assets/images/natural4.jpg" alt="Image 2" class="container__gallery-thumbnail--image">
+			</div>
+			<div class="gallery__thumbnail">
+				<img src="./assets/images/natural1.jpg" alt="Image 3" class="container__gallery-thumbnail--image">
+			</div>
+			<div class="gallery__thumbnail">
+				<img src="./assets/images/natural3.jpg" alt="Image 4" class="container__gallery-thumbnail--image">
+			</div>
+			<div class="gallery__thumbnail">
+				<img src="./assets/images/natural5.webp" alt="Image 5" class="container__gallery-thumbnail--image">
+			</div>
+			<div class="gallery__thumbnail">
+				<img src="./assets/images/natural6.webp" alt="Image 6" class="container__gallery-thumbnail--image">
+			</div>
+		</section>
+		<section class="lightbox" id="lightbox">
+			<span class="lightbox__close">&times;</span>
+			<img class="lightbox__content" id="lightbox-image">
+			<button class="lightbox__prev-button">&lt;</button>
+			<button class="lightbox__next-button">&gt;</button>
+		</section>
+	</main>
+
+	<!-- script file -->
+	<script src="script.js"></script>
+</body>
+</html>

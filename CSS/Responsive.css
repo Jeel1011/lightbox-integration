@@ -1,0 +1,15 @@
+@media (max-width: 720px) {
+    .container__gallery {
+        display: grid;
+        grid-template-columns: repeat(1, auto); /* 3 columns */
+        grid-template-rows: repeat(6, auto); /* 2 rows */
+        justify-content: center;
+        gap: 0%;
+    }
+    .container__gallery-thumbnail--image {
+        border: 1px solid white;
+        width: 60vw;
+        height: 30vh;
+    }
+}
+
